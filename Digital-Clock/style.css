@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#container{
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxes{
+    text-align: center;
+    color: darkgray;
+}
+h4{
+    font-size: 2em;
+}
+
+#hour,#minute,#second,#am_pm , #days{
+
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    padding: 1em;
+    margin: 1em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    color: rgb(112, 112, 112);
+    box-shadow: 5px 6px 16px #b8b8b8, -5px -1px 24px #b4c5a4;
+    font-size: 2em;
+    font-weight: bold;
+}
